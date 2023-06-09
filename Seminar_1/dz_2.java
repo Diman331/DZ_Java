@@ -1,4 +1,5 @@
 package Seminar_1;
+
 public class dz_2 {
 
     public static void main(String[] args) {

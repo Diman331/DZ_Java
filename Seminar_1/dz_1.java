@@ -1,5 +1,7 @@
 package Seminar_1;
+
 import java.util.Scanner;
+
 public class dz_1 {
 
     public static void main(String[] args) {
