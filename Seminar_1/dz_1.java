@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class dz_1 {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Введите число n: ");
-        int n = scanner.nextInt();
+        int n = sc.nextInt();
 
         int triangularNumber = calculateTriangularNumber(n);
         System.out.println("n-ое треугольное число: " + triangularNumber);
@@ -14,7 +14,7 @@ public class dz_1 {
         int factorial = calculateFactorial(n);
         System.out.println("n!: " + factorial);
 
-        scanner.close();
+        sc.close();
     }
 
     public static int calculateTriangularNumber(int n) {
